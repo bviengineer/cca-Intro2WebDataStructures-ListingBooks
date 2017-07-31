@@ -1,4 +1,4 @@
-//SCOPE OF APPLICATION
+//SCOPE OF APPLICATION: REQUIREMENTS
         /* Once addAuthorButton is clicked, will like to:
             1. Use a constructor to create an object about author & book title
             2. Add the author details to an array via push()
@@ -20,9 +20,9 @@
         
         //after adding .value at the end of variables, app started to print correct info
         var Author = function Author(aFName, aLName, aBookTitle) { 
-            this.aFirstName = authorFirstName.value; 
-            this.aLastName = authorLastName.value;
-            this.bookTitle = bookTitle.value; 
+            this.aFirstName = aFName; 
+            this.aLastName = aLName;
+            this.bookTitle = aBookTitle; 
          
          //Will convert the index of each author and corresponding book (array data), into a string for displaying to the user
             this.toString = function toString() {
@@ -46,7 +46,7 @@
 
         for(i = 0; i < authorList.length; i++) {
             var newAuthorInfo = authorList[i];
-            displayDiv.innerHTML += i + ": " + newAuthorInfo + "<hr><br>";
+            displayDiv.innerHTML += i + ": " + newAuthorInfo.toString() + "<hr><br>";
         } 
     }
 
