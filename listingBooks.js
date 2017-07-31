@@ -26,7 +26,7 @@
          
          //Will convert the index of each author and corresponding book (array data), into a string for displaying to the user
             this.toString = function toString() {
-            return this.aFirstName + "&nbsp" + this.aLastName + "&nbsp &nbsp <b>Title of Book:</b> " + this.bookTitle;
+            return this.aFirstName + "&nbsp" + this.aLastName + "&nbsp -- &nbsp<b><i>Title:<i></b>&nbsp " + this.bookTitle;
         }
     }
 
