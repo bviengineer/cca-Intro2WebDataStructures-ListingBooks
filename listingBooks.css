@@ -1,0 +1,65 @@
+/***Body & DIVs****/
+
+body {
+    background-color: brown;
+    color: palegoldenrod;
+}
+
+#content-div {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 40px;
+    line-height: 175%;
+}
+
+#display-div {
+    float: right;
+    margin-top: -200px;
+    margin-right: 150px;
+    margin-left: 450px;
+    font-size: 20px;
+    line-height: 75%;
+    text-align: center;
+}
+
+
+/****Headings, Text Boxes & Buttons****/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#author-first-name, #author-last-name, #book-title {
+    height: 20px;
+    width: 255px;
+    font-size: 15px;
+    padding-right: 10px;
+    background-color:palegoldenrod;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#author-last-name {
+    margin-left: 3px;
+}
+
+#book-title {
+    margin-left: 82px;
+}
+
+#add-author-button {
+    margin-top: 15px;
+    margin-left: 212px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#reset-authors-button {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkgreen;
+}
